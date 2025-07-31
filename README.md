@@ -31,7 +31,7 @@ Laravel環境構築
 
 * 以下が本システムのER図です。
 
-![ER図](./docs/er-diagram.png)
+![ER図](./docs/er-diagrams.png)
 
 
 ## URL
