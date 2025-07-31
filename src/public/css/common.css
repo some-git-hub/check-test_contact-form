@@ -1,0 +1,37 @@
+*{
+    font-family: Inika;
+    color: #8B7969;
+}
+
+.header{
+    width: 100%;
+    max-width: 1512px;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+.header__inner{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo{
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: inline-block;
+}
+
+.header-logo__link-home{
+    font-size: 40px;
+    text-decoration: none;
+}

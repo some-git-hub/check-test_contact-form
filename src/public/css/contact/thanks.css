@@ -1,0 +1,62 @@
+.thanks-page {
+    width: 100%;
+    max-width: 1512px;
+    height: 982px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 100px 20px;
+    overflow: hidden;
+}
+
+.thanks-page__inner {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.thanks-page__message {
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.thanks-page__background {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 280px;
+    color: #8B79690D;
+    white-space: nowrap;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.thanks-page__link{
+    position: absolute;
+    top: 445px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.thanks-page__link-home {
+    width: 140px;
+    height: 46px;
+    padding: 7px 0;
+    display: inline-block;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    background-color: #82756A;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.thanks-page__link-home:hover {
+    background-color: #555;
+}
