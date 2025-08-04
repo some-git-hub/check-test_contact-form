@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Database\Seeders\CategorySeeder;
+use Database\Seeders\ContactsTableSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,6 +16,6 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(CategorySeeder::class);
-        $this->call(ContactSeeder::class);
+        $this->call(ContactsTableSeeder::class);
     }
 }
